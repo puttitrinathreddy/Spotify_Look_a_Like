@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+body{
+    background-color:rgb(89, 233, 106);
+}
+
+html{
+    box-sizing:border-box
+}
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: inherit;
+}
+
+nav{
+    font-family: 'Caprasimo', cursive;
+    font-size:1.3rem;
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type: none;
+    height:65px;
+    background-color:black;
+    color:white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width:50px;
+    padding: 0 8px;
+
+}
+
+.brand{
+    display: flex;
+    align-items:center;
+    font-size: 1.5rem;
+}
+
+.container{
+    min-height:72vh;
+    background-color:black;
+    font-family: 'Nabla', cursive;
+    display:flex;
+    width:70%;
+    border-radius: 12px;
+    padding:34px;
+    margin: 23px auto;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bottom{
+    position:sticky;
+    height:130px;
+    background-color:black;
+    color:white;
+    display:flex;
+    bottom: 0;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.icons{
+    cursor:pointer;
+    margin-top:12px;
+}
+
+.icons i{
+    padding:0 3px;
+}
+
+#myProgressBar {
+    width:80%;
+    cursor:pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+  height: 50px;
+  display:flex;
+  background-color:white;
+  color: black;
+  font-size:16px;
+  font-family: 'Caprasimo', cursive;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius:34px;
+}
+.songItem img{
+  width:50px;
+  margin-right:5px;
+  border-radius:34px;
+}
+.timeStamp{
+    margin: 0 23px;
+    margin:0 20px; 
+}
+
+.timeStamp i{
+ cursor: pointer;
+ margin-left: 20px;
+}
+
+.songInfo{
+    position: absolute;
+    left:8vw;
+    font-size:small;
+    font-weight:100;
+    font-family:'Caprasimo'
+}
+
+.songInfo img{
+  opacity:0;
+  transition: opacity 0.4s ease-in;
+  mix-blend-mode: difference;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width:1100px)
+{
+ body{
+    background-color:rgb(11, 11, 11);
+ }
+}
