@@ -2,6 +2,8 @@
 
 A simple Spotify clone that mimics the look and feel of the popular music streaming service. This clone allows you to play songs that are stored locally on your device.
 
+## DEMO LINK :- https://puttitrinathreddy.github.io/Spotify_Look_a_Like/
+
 ## Features
 
 - **User Interface:** The application features a user interface similar to Spotify, providing a familiar and intuitive experience.
